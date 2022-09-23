@@ -12,8 +12,8 @@
         </entry>
         <entry>
             <title>Project 2</title>
-            <link>http://example.com</link>
-            <desc>A cool project</desc>
+            <link>projects/foobaz.xml</link>
+            <desc>Another project</desc>
         </entry>
         <entry>
             <title>Project 3</title>
