@@ -1,43 +1,15 @@
-<?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="template.xsl"?>
-<index>
-    <title>My Website</title>
+<page>
+    <h1>Example XSL Website</h1>
+    <p>This is a simple demo of an XSL-powered website.  With XSL, we can have header/footer includes without the need of <a href="https://en.wikipedia.org/wiki/Server_Side_Includes">server-side includes</a> (e.g. PHP), statically generated websites or client-side Javascript.</p>
 
-    <section>
-        <title>Projects</title>
-        <entry>
-            <title>Foobar</title>
-            <link>projects/foobar.xml</link>
-            <desc>A cool project</desc>
-        </entry>
-        <entry>
-            <title>Project 2</title>
-            <link>projects/foobaz.xml</link>
-            <desc>Another project</desc>
-        </entry>
-        <entry>
-            <title>Project 3</title>
-            <link>http://example.com</link>
-            <desc>A cool project</desc>
-        </entry>
-    </section>
+    <a href="https://github.com/evidlo/xsl-website">Source Code</a>
 
-    <section>
-        <title>Papers</title>
-        <entry>
-            <title>Paper 1</title>
-            <link>http://example.com</link>
-            <desc>A cool paper</desc>
-        </entry>
-        <entry>
-            <title>Paper 2</title>
-            <link>http://example.com</link>
-            <desc>A cool paper</desc>
-        </entry>
-        <entry>
-            <title>Paper 3</title>
-            <link>http://example.com</link>
-            <desc>A cool paper</desc>
-        </entry>
-    </section>
-</index>
+    <article>
+        <header><h1>Other Pages</h1></header>
+        <ul>
+            <li><a href="projects/foobar.xml">Page Alpha</a> - A cool project</li>
+            <li><a href="projects/foobaz.xml">Page Beta</a> - Another project</li>
+        </ul>
+    </article>
+</page>

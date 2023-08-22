@@ -1,13 +1,14 @@
-<?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="../template.xsl"?>
 <page>
-    <title>Another Article</title>
-    <content>
-        Other content here
+    <h1>Another Page</h1>
 
-        <ul>
-            <li>hello</li>
-            <li>hello</li>
-        </ul>
-    </content>
+    <p>This page has shared styling and &lt;head&gt; with all other pages on this site.</p>
+
+    My favorite animals:
+
+    <ul>
+        <li>Monkeys</li>
+        <li>Dolphins</li>
+        <li>Monkey-Dolphins</li>
+    </ul>
 </page>
