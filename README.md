@@ -7,4 +7,6 @@ This is a simple example of using browsers' built in XSL support to build a webs
 
 ## How it works
 
-When you browse to `index.xml` (or any of the other XML files), the browser loads the template file given at the top of the XML.  This template file contains an entry for tag in the XML that tells the browser how to render it as HTML.
+When you browse to `index.xml` (or any of the other XML files), the browser loads the template file given at the top of the XML.  This template file describes how to render the various custom tags in the XML as HTML.
+
+See `advanced/` for more advanced examples of defining templates with fields, or using templates inside of other templates.
