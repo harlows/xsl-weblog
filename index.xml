@@ -1,15 +1,22 @@
+<?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="template.xsl"?>
-<page>
-    <h1>Example XSL Website</h1>
-    <p>This is a simple demo of an XSL-powered website.  With XSL, we can have header/footer includes without the need of <a href="https://en.wikipedia.org/wiki/Server_Side_Includes">server-side includes</a> (e.g. PHP), statically generated websites or client-side Javascript.</p>
+<index>
+    <title>My Blog</title>
 
-    <a href="https://github.com/evidlo/xsl-website">Source Code</a>
+    <section>
+      <title>Posts</title>
+        <entry>
+            <title>First Post</title>
+            <link>posts/post1.xml</link>
+            <date>2025-08-27</date>
+            <desc>Hello world! This is my first blog post written in XML.</desc>
+        </entry>
+        <entry>
+            <title>Second Post</title>
+            <link>posts/post2.xml</link>
+            <date>2025-08-28</date>
+            <desc>This is another entry...</desc>
+        </entry>
+    </section>
 
-    <article>
-        <header><h1>Other Pages</h1></header>
-        <ul>
-            <li><a href="projects/foobar.xml">Page Alpha</a> - A cool project</li>
-            <li><a href="projects/foobaz.xml">Page Beta</a> - Another project</li>
-        </ul>
-    </article>
-</page>
+</index>
