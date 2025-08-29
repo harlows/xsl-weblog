@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../template.xsl"?>
+<page>
+    <title>Another Post</title>
+    <date>2025-08-28</date>
+    <content>
+        <p>This is another entry, with <a href="https://wok.oblomov.eu/tecnologia/google-killing-open-web">a link</a>.</p>
+    </content>
+</page>

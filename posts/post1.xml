@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../template.xsl"?>
+<page>
+    <title>First Post</title>
+    <date>2025-08-27</date>
+    <content>
+        <p>Hello world! This is my first blog post written in XML.</p>
+        <p>It’s styled with XSLT directly in your browser.</p>
+    </content>
+</page>
